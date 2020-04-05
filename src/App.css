@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  color: white;
+  background-image: url("./postap.jpg");
+  background-size: cover;
+}
+
+img {
+  text-align: center;
+  height: 20rem;
+  width: 20rem;
+}
+
+.breakDown {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+input {
+  border-radius: 2rem;
+  width: 20rem;
+  text-align: center;
+  margin: 2rem 0 0 0;
+}
+
+button {
+  border-radius: 2rem;
+  width: 5rem;
+  margin: 2rem 0 3rem 0;
+}
+
+.red {
+  color: red;
+  margin: 2rem 0 0 0;
+}
