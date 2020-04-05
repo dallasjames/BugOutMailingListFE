@@ -1,0 +1,26 @@
+{
+    "short_name": "Bug Out",
+    "name": "Bug Out",
+    "description": "Bug Out land lease and supplies",
+    "icons": [
+      {
+        "src": "../BugOutMailingListFE/src/components/72-hourPack.jpg",
+        "type": "image/jpg",
+        "sizes": "1000x1000"
+      },
+      {
+        "src": "../BugOutMailingListFE/src/components/storageContainer.jpg",
+        "type": "image/jpg",
+        "sizes": "1449x1212"
+      },
+      {
+        "src": "../BugOutMailingListFE/src/components/yurt.jpg",
+        "type": "image/jpg",
+        "sizes": "1131x716"
+      }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+}
