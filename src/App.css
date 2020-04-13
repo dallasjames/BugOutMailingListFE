@@ -41,6 +41,9 @@ body {
   color: white;
   background-image: url("./postap.jpg");
   background-size: cover;
+  font-weight: 700;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 
 img {
@@ -49,12 +52,24 @@ img {
   width: 20rem;
 }
 
-.breakDown {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+.wide {
+  text-align: center;
+  height: 20rem;
+  width: 25rem;
 }
+
+.breakDown {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width: 800px) {
+  .breakDown {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 
 input {
   border-radius: 2rem;
