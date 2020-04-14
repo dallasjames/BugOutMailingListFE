@@ -52,12 +52,6 @@ img {
   width: 20rem;
 }
 
-.wide {
-  text-align: center;
-  height: 20rem;
-  width: 25rem;
-}
-
 .breakDown {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

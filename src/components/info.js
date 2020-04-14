@@ -31,7 +31,7 @@ function Info() {
             </div>
         </div>
         <div>
-            <img className="wide" src={igloo} alt="Igloo" />
+            <img src={igloo} alt="Igloo" />
             <p>You will have the option of an ice house like this for the winter months.</p>
         </div>
         </>
